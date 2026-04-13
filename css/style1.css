@@ -1,0 +1,129 @@
+
+body {
+    background-color: #fff9c4; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.main-title {
+    color: #b71c1c; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    text-align: center;
+    color: #388e3c; 
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+.main-card {
+    background: white;
+    border: 5px solid #b71c1c; 
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.intro-section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.profile-box {
+    text-align: center;
+    width: 160px;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+    border: 4px solid #b71c1c; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.birth-year {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.intro-text {
+    border: 2px solid #b71c1c; 
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(183, 28, 28, 0.05); 
+    flex: 1;
+}
+
+
+.intro-text b, .intro-text strong {
+    color: #b71c1c; 
+}
+
+.section-title {
+    color: #b71c1c; 
+    border-bottom: 2px solid #b71c1c;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th {
+    background-color: #b71c1c; 
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #7f0000;
+}
+
+table td {
+    background-color: #fff9c4;
+    color: #1b5e20;
+    padding: 10px;
+    border: 1px solid #f0f4c3;
+}
+
+
+.grid-tables {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.grid-item {
+    flex: 1; 
+}
+
+
+.grid-item a {
+    color: #0277bd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid-item a:hover {
+    text-decoration: underline;
+}
