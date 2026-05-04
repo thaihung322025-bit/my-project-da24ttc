@@ -1,0 +1,76 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Khung chính */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Danh sách sản phẩm */
+.product-list {
+    display: flex;
+    justify-content: center;
+}
+
+/* Mỗi sản phẩm */
+.product-item {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+/* Hiệu ứng hover */
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Khung ảnh */
+.product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Khung thông tin */
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Tên sản phẩm */
+.product-info p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Giá */
+.product-info p:nth-child(2) {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+/* Nút đặt mua */
+.product-info a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.product-info a:hover {
+    background-color: #219150;
+}
